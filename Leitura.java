@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+    
 public class Leitura{
     public static void main (String args[]){
 
@@ -20,7 +20,8 @@ public class Leitura{
         c = teclado.nextDouble();
         System.out.println("Voce digitou um valor " + c);
         */
-
+        
+        /* episodio 04*/
 
         String nome;
         int    codigo;
@@ -32,8 +33,8 @@ public class Leitura{
         nome = teclado.nextLine();
         System.out.println("Digite seu salario");
         salario = Double.parseDouble(teclado.nextLine());
-        System.out.println("Seu codigo e nome e salario: " + codigo + " - " + nome + " - R$" + salario);
-
+        System.out.println("Seu codigo, nome e salario: " + codigo + " - " + nome + " - R$" + salario);
+        
         teclado.close();
 
     }
